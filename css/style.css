@@ -56,6 +56,27 @@ Fonts
        url('../webfonts/roboto-v20-latin-500italic.woff') format('woff'); 
 }
 
+html{
+  box-sizing: border-box;
+  height: 100%;
+}
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+
 body{
+  height: 100%;
   font-family: "Rubik", "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+  color: #434343;
+}
+
+/* Container  */
+.container{
+  max-width: 1240px;
+  padding: 0 20px;
+  margin: 0 auto;
 }
