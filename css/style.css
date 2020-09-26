@@ -72,6 +72,7 @@ body{
   font-size: 15px;
   line-height: 18px;
   color: #434343;
+  
 }
 
 /* Container  */
@@ -79,6 +80,7 @@ body{
   max-width: 1240px;
   padding: 0 20px;
   margin: 0 auto;
+
 }
 
 /* /*Site Header */
