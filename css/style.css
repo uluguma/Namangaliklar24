@@ -159,12 +159,24 @@ body{
   margin-right: 23px;
 }
 
+.language_toggler_wrapped{
+  display: flex;
+  align-items:flex-end;
+  justify-content: center;
+}
+
+.language_toggler_img{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
 .telegram_join_sub{
-  
   display: flex;
   align-items: center;
   background-color: #1E96C8;
-  background-image: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+  background-image: linear-gradient(90deg, #37AEE2 15.07%, #1E96C8 85.96%);
   border-radius: 5px;
   padding: 10px;
   color: #FFF;
@@ -172,6 +184,13 @@ body{
   font-family: Rubik;
   font-style: normal;
   line-height: 19px;
+}
+.telegram_image{
+  margin-right: 5px;
+}
+.telegram_join_sub:hover{
+  background-color: #1E96C8;
+  background-image: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
 }
   
   
