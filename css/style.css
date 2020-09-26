@@ -140,11 +140,30 @@ body{
 }
 
 .search_button{
-  padding: 8px;
+  padding: 0;
   border: none;
   border-radius: 5px;
   background-color: #FFFFFF;
+  Width:38px;
+  Height:40px;
  }
+
+ .search-button-wrapped{
+  padding: 8px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+
+}
+
+.search_button_image{
+  width: 24px;
+height: 24px;
+left: 1033px;
+top: 52px;
+}
  .site-header-search-button{
   margin-right: 22px;
  }
